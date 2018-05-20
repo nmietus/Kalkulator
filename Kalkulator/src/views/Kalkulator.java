@@ -258,8 +258,8 @@ public class Kalkulator extends JFrame
 		
 		btnEqual.addActionListener(new ActionListener() {	//=
 			public void actionPerformed(ActionEvent arg0) {
-				DLM.add(indexNumber, DLM.getElementAt(indexNumber)+"="+"wynik");
-				indexNumber++;
+				//DLM.add(indexNumber, DLM.getElementAt(indexNumber)+"="+"wynik");
+				//indexNumber++;
 			}
 		});
 	}
