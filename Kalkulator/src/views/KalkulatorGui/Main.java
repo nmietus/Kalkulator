@@ -234,8 +234,9 @@ public class Main extends JFrame
 				public void actionPerformed(ActionEvent e) {
 					tablica[indeks]=tablica[indeks]*10+0;
 					
-					if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-					else DLM.set(indeks, tablica[indeks]);
+					if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+					else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+					list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 				}
 			});
 		
@@ -243,8 +244,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+1;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -252,8 +254,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+2;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -261,8 +264,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+3;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -270,8 +274,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+4;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -279,8 +284,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+5;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -288,8 +294,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+6;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -297,8 +304,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+7;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -306,8 +314,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+8;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -315,8 +324,9 @@ public class Main extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				tablica[indeks]=tablica[indeks]*10+9;
 				
-				if(DLM.size()<=indeks) DLM.addElement(tablica[indeks]);
-				else DLM.set(indeks, tablica[indeks]);
+				if(DLM.size()<=indeks) DLM.addElement(String.format("%.0f", tablica[indeks]));
+				else DLM.set(indeks, String.format("%.0f", tablica[indeks]));
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
@@ -362,15 +372,15 @@ public class Main extends JFrame
 		
 		btnEqual.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				switch(indeksDzialan) {
+				switch(indeksDzialan) {						//operacje na liczbach
 					case 0:									//powtórzenie ostatniej liczby
 						indeks++;
-						DLM.addElement(tablica[indeks-1]);
+						DLM.addElement(String.format("%.0f", tablica[indeks-1]));
 						break;
 					case 1:									//dodawanie
 						indeks++;
 						tablica[indeks] = tablica[indeks-1]+tablica[indeks-2];
-						DLM.addElement(tablica[indeks]);
+						DLM.addElement(String.format("%.0f", tablica[indeks]));
 						break;
 					case 2:									//odejmowanie
 						indeks++;
@@ -380,15 +390,15 @@ public class Main extends JFrame
 					case 3:									//mno¿enie
 						indeks++;
 						tablica[indeks] = tablica[indeks-1]*tablica[indeks-2];
-						DLM.addElement(tablica[indeks]);
+						DLM.addElement(String.format("%.0f", tablica[indeks]));
 						break;
 					case 4:									//dzielenie
 						indeks++;
 						tablica[indeks] = tablica[indeks-2]/tablica[indeks-1];
-						DLM.addElement(tablica[indeks]);
+						DLM.addElement(String.format("%.0f", tablica[indeks]));
 						break;
 				}
-				
+				list.ensureIndexIsVisible(indeks);	//widocznoœæ ostatniego indeksu
 			}
 		});
 		
